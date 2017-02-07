@@ -103,7 +103,7 @@ begin_initialization {
   double cs   = cos(theta/180.0*pi);
   double sn   = sin(theta/180.0*pi);
 
-  //derived qunatities
+  //derived quantities
 
   double mi = me*mi_me;                 // Ion mass
   double vthi = vthe*sqrt(Ti_Te/mi_me); // Ion thermal velocity
