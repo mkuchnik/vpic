@@ -676,15 +676,15 @@ begin_initialization {
 	global->nex  = 6;
 	global->emax = 120;
 
-        std::vector<std::string> pythonNames;
-        //pythonNames.push_back("gridwriter.py");
-        //pythonNames.push_back("extractsurface.py");
-        //pythonNames.push_back("contour.py");
-        pythonNames.push_back("contourbenchmark.py");
+    std::vector<std::string> pythonNames;
+    //pythonNames.push_back("gridwriter.py");
+    //pythonNames.push_back("extractsurface.py");
+    //pythonNames.push_back("contour.py");
+    pythonNames.push_back("contourbenchmark.py");
 
-        coprocessorinitialize(pythonNames);
+    coprocessorinitialize(pythonNames);
 
-        sim_log ( "Finished coprocessor initialization ");
+    sim_log ( "Finished coprocessor initialization ");
 
 	sim_log("*** Finished with user-specified initialization ***");
 
